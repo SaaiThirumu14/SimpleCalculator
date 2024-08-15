@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("background.png");
+    background-size: cover;/*cover of full pages*/
+    background-repeat: no-repeat;/*background image repeating is avoided*/
+    display: flex;/*to allgn the display box centre*/
+    justify-content: center;
+}
+.heading{
+    border: 2px solid;
+    width:500px;
+    height:650px;
+    backdrop-filter: blur(60px);/*giving the transperancy effect*/
+    border-radius: 20px;
+}
+.heading-text{
+    display:flex;
+    justify-content:center;
+}
+.inputarea{
+    position:relative;
+    width: 100%;
+    justify-content: center;
+    border-radius: 20px;
+    height: 35px;
+    padding-left: 10px;
+}
+.button-padding{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.button{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    transition: 0.2s;
+    width: 50px;
+    height: 50px; 
+}
+.button:hover{
+    background-color: rgb(187, 253, 165);
+}
+.centrecal{
+    position: relative;
+    left: 10%;
+    display: flex;
+    color: #fbfbfa;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 40px;/*border effect of the calculation box*/
+    border: 10px;
+    width: 400px;
+    height: 550px;
+}
+.area{
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+}
+.output{
+    color: aliceblue;
+}
+.display{
+    padding-bottom: 30px;
+}
+.output{
+    border-radius: 20px;
+    width: 100%;
+    height: 35px;   
+}
